@@ -241,7 +241,7 @@ export default function Home() {
   <div className="flex-1 h-px bg-gradient-to-l from-transparent to-[#FFFFFF]/50" />
 </div>
 
-<section id="fav" className="w-full h-fit px-4 py-16 -mt-4 flex flex-col md:mt-24">
+<section id="fav" className="w-full h-fit px-4 py-16 mt-8 flex flex-col md:mt-24">
 
 <div>
   {cards.map((card, index) => (
