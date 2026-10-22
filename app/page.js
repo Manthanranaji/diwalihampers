@@ -13,10 +13,10 @@ const cards = [
     image: "p18.jpeg",
   },
   {
-    name: "Diwali Peacock Theme Rigid Box",
-    descr: "Rigid box with 4 big jars, 200g each: cashew, California almonds, milk chocolate and dark chocolate, with 2 diyas and a Diwali card",
-    price: "Starts from ₹880",
-    image: "p9.jpeg",
+    name: "Kids Diwali Big Blue Wooden Basket",
+    descr: "1 Cadbury Gems pack, 1 Cadbury Shots box, Nestlé milk chocolate, Snickers, Cadbury Milkina chocolate, peri peri popcorn pack, 4 pc P'22 dry fruit chocolate pack",
+    price: "₹660",
+    image: "p13.jpeg",
   },
   {
     name: "Healthy Snacking Basket",
@@ -61,10 +61,10 @@ const cards = [
     image: "p15.jpeg",
   },
   {
-    name: "Kids Diwali Big Blue Wooden Basket",
-    descr: "1 Cadbury Gems pack, 1 Cadbury Shots box, Nestlé milk chocolate, Snickers, Cadbury Milkina chocolate, peri peri popcorn pack, 4 pc P'22 dry fruit chocolate pack",
-    price: "₹660",
-    image: "p13.jpeg",
+    name: "Diwali Peacock Theme Rigid Box",
+    descr: "Rigid box with 4 big jars, 200g each: cashew, California almonds, milk chocolate and dark chocolate, with 2 diyas and a Diwali card",
+    price: "Starts from ₹880",
+    image: "p9.jpeg",
   },
   {
     name: "Guilt-Free Diwali Delights Box",
