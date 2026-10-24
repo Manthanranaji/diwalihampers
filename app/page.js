@@ -243,11 +243,23 @@ export default function Home() {
 
 <section id="fav" className="w-full h-fit px-4 py-16 mt-8 flex flex-col md:mt-24">
 
-<div>
-  {cards.map((card, index) => (
-    <Card key={card.name} {...card} index={index} />
-  ))}
-</div>
+  <div>
+    {cards.map((card, index) => (
+      <Card key={card.name} {...card} index={index} />
+    ))}
+  </div>
+
+  <div className="mt-12 flex flex-col text-white">
+    <h1 className="text-4xl leading-relaxed mx-auto font-cormorant text-[#C9A96E]">
+      Good to Know
+    </h1>
+    <ol className="list-decimal list-outside font-inter text-sm text-white/80 font-light leading-loose tracking-wider pl-5 -mb-40">
+      <li>Orders must be placed in advance.</li>
+      <li>Box colour/design may slightly differ from the pictures</li>
+      <li>Hamper contents can vary slightly based on availability</li>
+      <li>Final order and delivery details are confirmed on WhatsApp</li>
+    </ol>
+  </div>
 
 </section>
 <footer id="cont" className="bg-[#C9A96E] mt-44 py-10 px-6 text-center text-[#0A1510]">
