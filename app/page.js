@@ -249,17 +249,7 @@ export default function Home() {
     ))}
   </div>
 
-  <div className="mt-12 flex flex-col text-white">
-    <h1 className="text-4xl leading-relaxed mx-auto font-cormorant text-[#C9A96E]">
-      Good to Know
-    </h1>
-    <ol className="list-decimal list-outside font-inter text-sm text-white/80 font-light leading-loose tracking-wider pl-5 -mb-40">
-      <li>Orders must be placed in advance.</li>
-      <li>Box colour/design may slightly differ from the pictures</li>
-      <li>Hamper contents can vary slightly based on availability</li>
-      <li>Final order and delivery details are confirmed on WhatsApp</li>
-    </ol>
-  </div>
+
 
 </section>
 <footer id="cont" className="bg-[#C9A96E] mt-44 py-10 px-6 text-center text-[#0A1510]">
