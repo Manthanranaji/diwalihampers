@@ -8,133 +8,154 @@ import Link from "next/link";
 const cards = [
   {
     name: "P'22 Diwali Rigid Box",
-    descr: "3 jars, 100g each: almonds, cashews and raisins, with a dry fruit chocolate box, Diwali card and diya, perfect for the ocassion",
+    intro: "3 jars + extras",
+    items: ["Jar 1: Almonds, 100g", "Jar 2: Cashews, 100g", "Jar 3: Raisins, 100g", "Dry fruit chocolate box", "Diwali card", "Diya"],
     price: "Starts from ₹699",
     image: "p18.jpeg",
   },
   {
     name: "Kids Diwali Big Blue Wooden Basket",
-    descr: "1 Cadbury Gems pack, 1 Cadbury Shots box, Nestlé milk chocolate, Snickers, Cadbury Milkina chocolate, peri peri popcorn pack, 4 pc P'22 dry fruit chocolate pack",
+    intro: "Includes",
+    items: ["Cadbury Gems", "Cadbury Shots", "Nestlé milk chocolate", "Snickers", "Cadbury Milkina", "Peri peri popcorn", "P'22 dry fruit chocolates (4 pc)"],
     price: "₹660",
     image: "p13.jpeg",
   },
   {
     name: "Healthy Snacking Basket",
-    descr: "Mom Makhana cheese cheddar, Mom Makhana cream & onion, Beyond Snack banana chips, ragi jowar chips, Farmley dry fruit pack, P'22 dry fruit chocolates",
+    intro: "Includes",
+    items: ["Mom Makhana cheese cheddar", "Mom Makhana cream & onion", "Beyond Snack banana chips", "Ragi jowar chips", "Farmley dry fruit pack", "P'22 dry fruit chocolates"],
     price: "₹440",
     image: "p6.jpeg",
   },
   {
     name: "Diwali Box Set Of 2 Jars",
-    descr: "Box set of 2 jars: honey oatmeal cookie and assorted chocolate",
+    intro: "2 jars",
+    items: ["Jar 1: Honey oatmeal cookie", "Jar 2: Assorted chocolate"],
     price: "Starts from ₹550",
     image: "p24.jpeg",
   },
   {
     name: "Dry Fruit Diwali Tray Box",
-    descr: "500g of premium almonds and cashews in a peacock-print Diwali tray box",
+    intro: "500g · peacock-print tray box",
+    items: ["Premium almonds", "Premium cashews"],
     price: "Starts from ₹750",
     image: "p22.jpeg",
   },
   {
     name: "Dry Fruit Chocolates With Diya",
-    descr: "16 pcs dry fruit chocolates with diya",
+    intro: "Includes",
+    items: ["16 pcs dry fruit chocolates", "Diya"],
     price: "Starts from ₹499",
     image: "p19.jpeg",
   },
   {
     name: "The Golden Lotus Diwali Box",
-    descr: "3 jars, 100g each: cookies, dry fruit and chocolate, with 2 golden diyas",
+    intro: "3 jars + extras",
+    items: ["Jar 1: Cookies, 100g", "Jar 2: Dry fruit, 100g", "Jar 3: Chocolate, 100g", "2 golden diyas"],
     price: "Starts from ₹650",
     image: "p16.jpeg",
   },
   {
     name: "Diwali Peacock Theme Rigid Box With Diya",
-    descr: "Rigid box with 4 big jars, 200g each: cashew, California almonds, milk chocolate and dark chocolate, with 1 diya and a Diwali card",
+    intro: "4 big jars + extras",
+    items: ["Jar 1: Cashew, 200g", "Jar 2: California almonds, 200g", "Jar 3: Milk chocolate, 200g", "Jar 4: Dark chocolate, 200g", "1 diya", "Diwali card"],
     price: "Starts from ₹800",
     image: "p11.jpeg",
   },
   {
     name: "The Classic Diwali Box",
-    descr: "1 mix dry fruit jar 100g, 1 cookie jar, 8 pcs assorted chocolate box, diya, Diwali card",
+    intro: "2 jars + extras",
+    items: ["Jar 1: Mix dry fruit, 100g", "Jar 2: Cookies", "Assorted chocolate box (8 pcs)", "Diya", "Diwali card"],
     price: "₹800",
     image: "p15.jpeg",
   },
   {
     name: "Diwali Peacock Theme Rigid Box",
-    descr: "Rigid box with 4 big jars, 200g each: cashew, California almonds, milk chocolate and dark chocolate, with 2 diyas and a Diwali card",
+    intro: "4 big jars + extras",
+    items: ["Jar 1: Cashew, 200g", "Jar 2: California almonds, 200g", "Jar 3: Milk chocolate, 200g", "Jar 4: Dark chocolate, 200g", "2 diyas", "Diwali card"],
     price: "Starts from ₹880",
     image: "p9.jpeg",
   },
   {
     name: "Guilt-Free Diwali Delights Box",
-    descr: "Eat Better Co date & chocolate almond snacks, Farmley Date Bites, Farmley Peri Peri Party Mix, almond chocolate bar, tealight candles with a diya set, in a premium black gift box",
+    intro: "Premium black gift box",
+    items: ["Eat Better Co almond snacks", "Farmley Date Bites", "Farmley Peri Peri Party Mix", "Almond chocolate bar", "Tealight candles + diya set"],
     price: "₹770",
     image: "p1.jpeg",
   },
   {
     name: "Dryfruit Loaded Chocolate Box",
-    descr: "30 pcs dry fruit loaded chocolates in an emerald gift box with a lotus diya",
+    intro: "Emerald gift box",
+    items: ["30 pcs dry fruit chocolates", "Lotus diya"],
     price: "Starts from ₹660",
     image: "p2.jpeg",
   },
   {
     name: "The Festive Gift Box",
-    descr: "1 diya set, 200g mix dry fruit jar, 1 playing cards set",
+    intro: "Includes",
+    items: ["Jar: Mix dry fruit, 200g", "Diya set", "Playing cards set"],
     price: "₹750",
     image: "p3.jpeg",
   },
   {
     name: "Assorted Chocolate Box",
-    descr: "12 pcs assorted chocolate box",
+    intro: "12 pcs",
+    items: ["Assorted chocolates"],
     price: "₹290",
     image: "p4.jpeg",
   },
   {
     name: "Dry Fruit Chocolate Box",
-    descr: "9 pcs dry fruit chocolate box",
+    intro: "9 pcs",
+    items: ["Dry fruit chocolates"],
     price: "₹250",
     image: "p5.jpeg",
   },
   {
     name: "Diwali Snacking Basket",
-    descr: "Haldiram's Mexican nachos 90g pack, Netflix popcorn, Farmley trail mix pack, dry fruit chocolates pack of 4, 4700BC salted caramel popcorn, Paper Boat mango drink, Little Hearts biscuit pack",
+    intro: "Includes",
+    items: ["Haldiram's Mexican nachos (90g)", "Netflix popcorn", "Farmley trail mix", "Dry fruit chocolates (4 pc)", "4700BC caramel popcorn", "Paper Boat mango drink", "Little Hearts biscuits"],
     price: "₹575",
     image: "p7.jpeg",
   },
   {
     name: "Dry Fruit Chocolates",
-    descr: "20 pcs dry fruit chocolates with light and Diwali card",
+    intro: "20 pcs",
+    items: ["Dry fruit chocolates", "Light", "Diwali card"],
     price: "₹550",
     image: "p12.jpeg",
   },
   {
     name: "Festive Bloom Gift Box",
-    descr: "3 big cookie jars, 200g tea cake, assorted chocolate box",
+    intro: "Includes",
+    items: ["3 big cookie jars", "Tea cake (200g)", "Assorted chocolate box"],
     price: "₹1250",
     image: "p14.jpeg",
   },
   {
     name: "Diwali Box Set",
-    descr: "Box set of 2 dry fruit jars, 200g each, in a peacock-print gift box",
+    intro: "2 jars · peacock-print box",
+    items: ["Jar 1: Dry fruit, 200g", "Jar 2: Dry fruit, 200g"],
     price: "Starts from ₹650",
     image: "p28.jpeg",
   },
   {
     name: "Royal Trio Hamper Box",
-    descr: "3 jars, 200g each: cashew, dry fruit chocolate and almond, in a lotus-print gift box",
+    intro: "3 jars · lotus-print box",
+    items: ["Jar 1: Cashew, 200g", "Jar 2: Dry fruit chocolate, 200g", "Jar 3: Almond, 200g"],
     price: "Starts from ₹750",
     image: "p26.jpeg",
   },
   {
     name: "Royal Quartet Hamper Box",
-    descr: "4 jars of almonds, raisins, and dark and milk chocolate, in a peacock and lotus print Diwali box",
+    intro: "4 jars · peacock & lotus print box",
+    items: ["Jar 1: Almonds", "Jar 2: Raisins", "Jar 3: Dark chocolate", "Jar 4: Milk chocolate"],
     price: "₹1050",
     image: "p30.jpeg",
   },
 ];
 
-function Card({ name, descr, image, price, index }) {
+function Card({ name, intro, items, image, price, index }) {
   const ref = useRef(null)
   const [flipped, setFlipped] = useState(false)
   const isReversed = index % 2 === 1
@@ -173,9 +194,23 @@ function Card({ name, descr, image, price, index }) {
               {price}
             </span>
 
-            <p className="text-xs font-inter md:text-sm tracking-wider text-[#FFFFFF]/60">
-              {descr}
-            </p>
+            <div className="text-xs font-inter md:text-sm tracking-wider text-[#FFFFFF]/60">
+              {intro && (
+                <p className="mb-2 text-[#C9A96E]">
+                  {intro}
+                </p>
+              )}
+              {items && (
+                <ul className="space-y-1">
+                  {items.map((item) => (
+                    <li key={item} className="flex gap-2">
+                      <span className="text-[#C9A96E]">•</span>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
           </div>
 
           <div className="w-full md:h-64 [direction:ltr]">
@@ -249,12 +284,25 @@ export default function Home() {
     ))}
   </div>
 
-
+<div className="mt-12 flex flex-col text-white">
+<h1 className="text-4xl leading-relaxed mx-auto font-cormorant text-[#C9A96E]">
+  Good to Know
+</h1>
+<ol className="list-decimal list-outside font-inter text-sm text-white/80 font-light leading-loose tracking-wider pl-5 -mb-40">
+  <li>Orders must be placed in advance.</li>
+  <li>Box colour/design may slightly differ from the pictures</li>
+  <li>Hamper contents can vary slightly based on availability</li>
+  <li>Final order and delivery details are confirmed on WhatsApp</li>
+  <li>50% advance payment is required to confirm the order</li>
+  <li>Delivery (Porter/Uber) must be booked by the customer. We do not arrange delivery</li>
+</ol>
+</div>
 
 </section>
 <footer id="cont" className="bg-[#C9A96E] mt-44 py-10 px-6 text-center text-[#0A1510]">
   <p className="font-cormorant mb-1 text-2xl text-[#0A1510] tracking-wider">PATISSERIE'<span className="text-4xl"> 22</span></p>
   <p className="text-[9px] text-[#1A3024] font-inter tracking-widest mb-6">FRESHLY BAKED · EGGLESS · DELHI</p>
+  <p className="text-[12px] text-black/50 font-inter font-light tracking-wide mb-4">Tap below to chat directly on Insta or WhatsApp</p>
   <div className="flex justify-center gap-6 text-blue-500/80 mb-6 font-inter text-sm tracking-widest">
     <a href="https://instagram.com/patisserie22_" target="_blank" rel="noopener noreferrer">Instagram</a>
     <a href="https://wa.me/+917011352004" target="_blank" rel="noopener noreferrer">WhatsApp</a>
